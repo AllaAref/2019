@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+@import "~bootstrap/scss/bootstrap";
+
+.app-header {
+    margin-bottom: $base*15;
+}
+
+.show {
+   transition: 1s; 
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    float: right;
+    background-color: #f8f9fa;
+}
+
+.timer:hover {
+    background-color: #dae0e5;
+}

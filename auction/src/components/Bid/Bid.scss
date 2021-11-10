@@ -1,0 +1,34 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../../styles/variables.scss";
+
+.block {
+    column-count: 1;
+      column-gap: 20px;
+  }
+  .elem {
+    display: inline-block; 
+    width: 100%;
+    padding: 50px;
+  }
+
+.BidButton {
+    cursor: pointer;
+    width: $base * 40;
+    padding: $base * 2 $base * 6;
+    border-radius: 54px;
+    background-color: $color-magenta;
+    text-align: center;
+    font-size: $base * 5;
+    transition: background-color .25s;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+.BidButton:hover {
+    background-color: $color-violet;
+  }
+
+.amount-border {
+    border-right: solid 2px $color-magenta;
+}

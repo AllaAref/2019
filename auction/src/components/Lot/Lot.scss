@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+@import '../../styles/variables.scss';
+
+.image{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 86%;
+    display: block;
+    text-align: center;
+}
+.image img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.title-text-violet {
+    color: $color-magenta;
+}

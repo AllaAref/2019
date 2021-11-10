@@ -1,0 +1,8 @@
+@import "~bootstrap/scss/bootstrap";
+@import "../../styles/variables.scss";
+
+.App {
+  text-align: center;
+  padding-top: $base*6;
+  padding-bottom: $base*10;
+}
